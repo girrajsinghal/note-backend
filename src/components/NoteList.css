@@ -1,0 +1,57 @@
+/* NoteList.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+/* Black-and-white mode styles */
+.bw-mode body {
+    background-color: #fff;
+    color: #000;
+}
+
+.bw-mode .container {
+    background: #f0f0f0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.bw-mode li {
+    background: #e0e0e0;
+    color: #000;
+}
+
+.bw-mode button {
+    background: #d2b8b8;
+    color: #000;
+}
+
+.bw-mode button.edit {
+    background: #aaa; /* Lighter gray for edit */
+}
+
+.bw-mode button.delete {
+    background: #888; /* Darker gray for delete */
+}
+
+.bw-mode button.create,
+.bw-mode button.update {
+    background: #777; /* Gray for add and update */
+}
+
+button.toggle-mode {
+    background-color: #000; /* Black background for the toggle button */
+    color: #fff; /* White text for contrast */
+    border: none; /* Remove default border */
+    padding: 10px; /* Add padding for better appearance */
+    border-radius: 5px; /* Round corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+    margin-bottom: 20px; /* Space below the button */
+}
+
+button.toggle-mode:hover {
+    background-color: #333; /* Darker shade on hover */
+}
