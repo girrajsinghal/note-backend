@@ -1,3 +1,8 @@
+#project Details - you can create your note and perform all crud operations
+                   mern besed project
+                   use redis cache concepts for reducing the response time 
+                   use React.js simple code 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
